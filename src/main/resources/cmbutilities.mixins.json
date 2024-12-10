@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.devcmb.cmbutilities.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "SpeedrunningWorldFilterButton",
+    "WorldFilter"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

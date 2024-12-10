@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "cmbutilities",
+  "version": "${version}",
+  "name": "CmbUtilities",
+  "description": "A simple utilities mod",
+  "authors": ["DevCmb"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/cmbutilities/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "xyz.devcmb.cmbutilities.client.CmbUtilitiesClient"
+    ],
+    "main": [
+      "xyz.devcmb.cmbutilities.CmbUtilities"
+    ]
+  },
+  "mixins": [
+    "cmbutilities.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
